@@ -1,0 +1,8 @@
+namespace: test
+image:
+  repository: nginx
+  tag: "1.19"
+service:
+  spec:
+    cpu: "200m"
+    memory: "1Gi"
